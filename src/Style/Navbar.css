@@ -1,0 +1,55 @@
+/*-----------------------------------*\
+  #NAVBAR
+\*-----------------------------------*/
+
+.navbar {
+    position: absolute;
+    /* bottom: 0; */
+    /* top: 7.1% !important; */
+    right: 7.2% !important;
+    /* right: 0; */
+        border: 0.4px solid hsla(45, 54%, 58%, 0.774) !important;
+    width: max-content;
+    background: hsla(240, 1%, 17%, 0.75);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--jet);
+    border-radius:  0 20px;
+    box-shadow: var(--shadow-2);
+    z-index: 5;
+    padding-bottom: 1rem !important;
+} 
+
+.navbar-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+
+}
+
+.navbar-link {
+    color: var(--light-gray);
+    font-size: var(--fs-8);
+    padding: 20px 7px;
+    transition: color var(--transition-1);
+    background: none;
+    border: 0;
+    /* outline: none; */
+    /* box-shadow: none; */
+}
+
+.navbar-link:hover,
+.navbar-link:focus {
+    color: var(--light-gray-70);
+}
+
+.navbar-link.active {
+    color: var(--orange-yellow-crayola);
+}
+
+/*-----------------------------------*\
+  #RESPONSIVE
+\*-----------------------------------*/
+
+/* 
